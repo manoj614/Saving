@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("imageplacementbg.jpeg");
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(187, 230, 226, 0.650),rgba(204, 224, 223, 0.403),rgba(164, 226, 221, 0.704),rgba(198, 228, 226, 0.779));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between ;
+    align-items: center;
+}
+nav img{
+    width: 220px;
+    height: auto;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 15px;
+    position: relative;
+    margin-right: 10px; 
+}
+.nav-links ul li a{
+    color: rgba(0, 0, 0, 0.979);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 4px;
+    background:rgba(61, 110, 216, 0.979);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.placements{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -60px;
+    padding-top: 60px;
+
+}
+.imgplace{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.global{
+    text-align: center;
+    color: #3d3535;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.radiusz{
+    border-radius: 2%;
+
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#008CBA ;
+    font-size: 20px;
+    padding: 0 10px;
+}
+nav ul li a:after{
+    content: "";
+    position: relative;
+    background-color:#008CBA;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+nav ul li a:hover{
+    color: rgb(206, 63, 44);
+}
+nav ul li a:hover:after{
+    width: 100%;
+
+}

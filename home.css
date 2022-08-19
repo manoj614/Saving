@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.bodya{
+    background-image: url("—Pngtree—youth does not graduate decisive_1007474.jpg");
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(187, 230, 226, 0.994),rgba(204, 224, 223, 0.646),rgba(164, 226, 221, 0.600),rgba(198, 228, 226, 0.949));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between ;
+    align-items: center;
+}
+nav img{
+    width: 220px;
+    height: auto;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 15px;
+    position: relative;
+    margin-right: 10px; 
+}
+.nav-links ul li a{
+    color: rgba(0, 0, 0, 0.979);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background:rgba(38, 142, 202, 0.979);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 90%;
+}
+span{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between ;
+}
+span img{
+    width: 600px;
+    height: 400px;
+     padding-top: 30px;
+     margin-left: 15px;
+}
+span h1{
+    padding-top: 60px;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+span p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+div h1{
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#008CBA ;
+    font-size: 20px;
+    padding: 0 10px;
+}
+nav ul li a:after{
+    content: "";
+    position: relative;
+    background-color:#000000;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover:after{
+    width: 100%;
+
+}
+video{
+  padding-left: 5%;
+}
+.hero-btn{
+    font-size: 25px;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid rgb(2, 4, 14);
+    padding: 6px 18px;
+    
+}
+.hero-btn:hover{
+    border: 2px solid #000000;
+    background: rgb(34, 192, 179);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    
+}
+@media(max-width: 700px){
+    span h1{
+        font-size: 20pxpx; 
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100hv;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: right;
+        z-index: 2;
+    }
+}
+.youtubeedit{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.bodyz{
+    display: flex;
+    height: 30vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #1d1b1b;
+
+}
+.iconsback {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin-left: -30px;
+  margin-top: -50px;
+    position: relative;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(255, 255, 255) ;
+    font-size: 40px;
+    font-weight: 400;
+}
+.iconsback:after{
+    content: "";
+    position: relative;
+    background-color: rgb(9, 216, 206);
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+.iconsback:hover{
+    color: rgb(11, 227, 235);
+}
+.iconsback:hover:after{
+    width: 100%;
+}
+.social-menu ul {
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 12px 30px;
+    margin: 30px 80px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+.lastpage{
+    display: flex;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+
+}

@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("about usfix.jpg");
+    height: 800px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(187, 230, 226, 0.600),rgba(204, 224, 223, 0.683),rgba(164, 226, 221, 0.504),rgba(198, 228, 226, 0.799));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between ;
+    align-items: center;
+}
+nav img{
+    width: 220px;
+    height: auto;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 15px;
+    position: relative;
+    margin-right: 10px; 
+}
+.nav-links ul li a{
+    color: rgba(0, 0, 0, 0.979);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 4px;
+    background:rgba(61, 110, 216, 0.979);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#008CBA ;
+    font-size: 20px;
+    padding: 0 10px;
+}
+nav ul li a:after{
+    content: "";
+    position: relative;
+    background-color:#008CBA;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+nav ul li a:hover{
+    color: rgb(206, 63, 44);
+}
+nav ul li a:hover:after{
+    width: 100%;
+
+}
+.aboutus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+.amatter{
+    padding: 30px 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.row1{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+.img-areaa{
+    width: 300px;
+    height: auto;
+}
+.smalla{
+    color: #3d3535;
+    font-weight: 500;
+    padding-bottom: 90px;
+}
